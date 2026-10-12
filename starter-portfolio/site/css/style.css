@@ -100,16 +100,17 @@ a {
   font-family: var(--police);
   font-size: 16px;
   font-weight: 600;
-  color: #ffffff;
-  background-color: var(--couleur-principale);
+  color: #2f5bea;
   cursor: pointer;
   transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1),
   box-shadow 0.5s ease;
 }
 
 .lien:hover {
+  background-color: var(--couleur-principale);
   transform: translateY(-10px) scale(1.03);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
 }
 
 /* ---------- 3. En-tête ---------- */
